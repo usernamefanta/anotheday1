@@ -1,0 +1,19 @@
+{
+  "name": "node-backend",
+  "version": "1.0.0",
+  "description": "Node.js Backend for Angular E-commerce App",
+  "main": "servea.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": ["node.js", "express", "mongoose", "ecommerce"],
+  "author": "Your Name",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.1",
+    "body-parser": "^1.19.0",
+    "mongoose": "^6.0.7"
+    // Add other backend dependencies as needed
+  }
+}
